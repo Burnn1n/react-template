@@ -4,9 +4,12 @@ import './Header.scss'
 const Header = ({history}) => {
   return (
     <React.Fragment>
-    <header>
+    <header className="containing">
       <div className="logo">
-        logo
+        <a href="/">logo</a>
+      </div>
+      <div className="login">
+        <a href="/admin" >admin</a>
       </div>
     </header>
     </React.Fragment>
